@@ -1,1 +1,52 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
 
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore Node.js dependencies
+/node_modules/
+
+# Ignore any log files
+*.log
+
+# Ignore compiled files
+*.min.js
+*.min.css
+
+# Ignore environment-specific files
+.env
+
+# Ignore user-uploaded files (if any)
+/uploads/
+
+# Ignore composer.lock file
+composer.lock
+
+# Ignore npm's debug log file
+npm-debug.log*
+
+# Ignore any cache or temporary files
+.cache/
+.tmp/
+.temp/
+
+# Ignore any IDE or editor files
+.idea/
+.vscode/
+
+# Ignore any local development configuration files
+.env.local
+
+# Ignore SQLite database file
+*.sqlite
+
+# Ignore compiled PHP files
+*.phar
+
+# Ignore any backups
+*.bak
+
+# Ignore configuration files that may contain sensitive information
+config.php
